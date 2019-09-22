@@ -7,6 +7,7 @@ import re
 import sys
 
 # Sorting: Bubble Sort from HackerRank
+# https://www.hackerrank.com/challenges/ctci-bubble-sort/problem?h_r=profile
 # Complete the countSwaps function below.
 
 
@@ -31,6 +32,10 @@ def countSwaps(a):
     print(f"First Element: {a[0]}")
     print(f"Last Element: {a[-1]}")
 
+    return
+
+
+print(str([1, 2, 3, 4, 3] + [1, 23, 4, 5]).strip('[]'))
 
 # if __name__ == '__main__':
 #     n = int(input())
